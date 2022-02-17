@@ -7,9 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Hello from India!';
-
+  imgUrl="";
 
   ngOnInit():void{
     this.title= "Hello from Indians!";
+    this.imgUrl="./assets/Road_less_travelled.jpg";
   }
 }
