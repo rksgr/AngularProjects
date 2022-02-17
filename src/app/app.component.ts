@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Hello from India!';
+
+
+  ngOnInit():void{
+    this.title= "Hello from Indians!";
+  }
 }
